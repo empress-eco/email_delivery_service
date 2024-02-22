@@ -1,31 +1,65 @@
 <div align="center">
-    <img src="https://frappecloud.com/files/email-delivery-service%20(1).png" style="height:128px;border-radius:25px;">
-    <h2>Email Delivery Sevice</h2>
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" style="height:128px;border-radius:25px;">
 </div>
 
-A plug and play email delivery service for Frappe Cloud.
+<p align="center">
+Streamline your email delivery process with Empress, an efficient and effortless email delivery service powered by Mailgun.
+<br />
+<a href="https://empress.eco/">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/email_delivery_service/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/email_delivery_service/issues">Request Feature</a>
+</p>
 
-#### Features
-1. Requires no additional setup
-2. Handles outgoing
-3. Integrates with existing email module
-4. Detailed analytics and logs (Mail Analytics)
-5. Custom sub-domains
-6. Powered by [Mailgun](https://www.mailgun.com/)
+## About The Project
 
-#### Installation and Troubleshooting
-* Only compatible with [Frappe Cloud](https://frappecloud.com/)
-* Frappe Cloud users can install it from [Marketplace](https://frappecloud.com/marketplace/apps/email-delivery-service)
-* After installing you should see these keys in your site config section on Frappe Cloud. If you don't see this you can add them manually and you are good to go. 
-* If you already have some other account setup for outgoing emails on your site you don't need to worry about setting this up.
+### 📖 Overview
+Empress Email Delivery Service is a plug-and-play solution designed to simplify and enhance your email delivery process. Originally built for Empress Cloud, this tool integrates seamlessly with your existing email module, offering detailed analytics and supporting custom sub-domains.
 
-![Screenshot 2022-02-11 at 12 13 08 PM](https://user-images.githubusercontent.com/50401596/153547849-3c793074-be77-4f00-a182-5aedb0fc51b6.png)
+### 🌟 Key Features
+- Plug-and-play: No additional setup required.
+- Outgoing Emails: Efficiently handles all outgoing emails.
+- Seamless Integration: Integrates effortlessly with your existing email module.
+- Analytics: Provides detailed analytics and logs via Mail Analytics.
+- Custom Sub-Domains: Supports custom sub-domains for personalized email delivery.
 
-#### Screenshots
+## Technical Stack and Setup Instructions
 
-![Screenshot 2022-01-17 at 1 06 07 PM](https://user-images.githubusercontent.com/50401596/149731329-b0b68405-8a8c-4aa2-86e0-7fc98d798f3c.png)
+### Prerequisites
+This service is exclusively compatible with [Empress Cloud](https://empress.eco/).
 
+### Installation
+Empress Cloud users can install Empress Email Delivery Service from the [Marketplace](https://empress.eco/marketplace/apps/email-delivery-service).
 
-#### License
+1. Clone the repository:
+```sh
+git clone https://github.com/empress-eco/email_delivery_service.git
+```
+2. After installing, you should see the following keys in your site config section on Empress Cloud. If not, add them manually.
+```sh
+# screenshot of the keys
+```
+![Screenshot](https://user-images.githubusercontent.com/50401596/153547849-3c793074-be77-4f00-a182-5aedb0fc51b6.png)
 
-MIT
+3. If you already have an account setup for outgoing emails on your site, no additional setup is required.
+
+## Usage
+To utilize Empress Email Delivery Service, follow the installation instructions above. Once installed, the service will automatically manage all outgoing emails from your site. You can view detailed analytics and logs for your emails through Mail Analytics.
+
+## Contribution Guidelines
+We welcome and appreciate contributions! Here's how you can contribute:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License and Acknowledgements
+
+### License
+This project is licensed under the MIT License. Your contributions will also be licensed under the MIT License.
+
+### Acknowledgements
+Special thanks to Mailgun for powering our service, our users for their continued support and feedback, and the Empress Community for building the essential tools that power this project. Your innovation and dedication have been instrumental in the success of Empress Email Delivery Service. Thank you for your pioneering work and ongoing support.
