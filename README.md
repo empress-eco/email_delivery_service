@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" style="height:128px;border-radius:25px;">
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
 </div>
 
 <p align="center">
